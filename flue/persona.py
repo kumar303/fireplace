@@ -9,7 +9,9 @@ import uuid
 SECRET = "This is a value which should be unique to the service."
 
 verifiers = {
-    0: 'https://verifier.login.persona.org/verify',
+    // Both desktop and native verifiers are the same but that's only
+    // temporary. See bug 873201.
+    0: 'https://firefoxos.persona.org/verify',
     1: 'https://firefoxos.persona.org/verify'
 }
 

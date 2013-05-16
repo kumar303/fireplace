@@ -28,7 +28,8 @@ define('settings', ['settings_local', 'underscore'], function(settings_local, _)
 
         persona_unverified_issuer: 'firefoxos.persona.org',
         native_persona: 'https://firefoxos.persona.org/include.js',
-        persona: 'https://login.persona.org/include.js',
+        // Temporary change for bug 873201.
+        persona: 'https://firefoxos.persona.org/include.js',
 
         title_suffix: 'Firefox Marketplace',
         carrier: null
