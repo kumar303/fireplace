@@ -13,5 +13,7 @@
     "node": ">= 0.10.x",
     "npm": ">= 1.1.x"
   },
-  "dependencies": {}
+  "dependencies": {
+    "commonplace": ">= 0.1.5"
+  }
 }
